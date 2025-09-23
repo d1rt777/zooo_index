@@ -1,0 +1,52 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            padding: 20px;
+        }
+        
+        .animals-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            color: #000000c9;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+         .animals-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            gap: 20px;
+        }
+    
+        .large {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        
+        .medium {
+            grid-column: span 2;
+        }
+        
+        .small {
+            grid-column: span 1;
+        }
+        
+
+
+
+
+        
+        
+       
