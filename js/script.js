@@ -39,4 +39,4 @@
     prevBtn.addEventListener('click', prevSlide);
 
     // автоплей
-    setInterval(nextSlide, 10000);
+    setInterval(nextSlide, 7000);
