@@ -1,0 +1,8 @@
+     body { display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#222; }
+    .slider { position:relative; width:600px; max-width:100%; overflow:hidden; border-radius:10px; }
+    .slides { display:flex; transition:transform 0.5s ease; }
+    .slide { min-width:100%; }
+    .slide img { width:100%; display:block; }
+    .btn { position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.5); color:#fff; border:none; padding:10px; cursor:pointer; }
+    .prev { left:10px; }
+    .next { right:10px; }
