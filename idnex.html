@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <header>
-
+  <body>
+    <header class="header">
+      <div class="logo">ZOOSIK</div>
+      <nav class="nav">
+        <a href="#">Сотрудники</a>
+        <a href="#">Животные</a>
+        <a href="#">Отзывы</a>
+      </nav>
+      <a href="#" class="call-btn">Позвоните нам!</a>
     </header>
 
     <main>
-        <div class="slider">
+         <div class="slider">
     <div class="slides">
       <div class="slide"><img src="img/bird.jpg" alt="img1"></div>
       <div class="slide"><img src="img/lemyr.jpg" alt="img2"></div>
@@ -23,39 +28,120 @@
     </div>
    
     <div class="dots"></div>
-  </div>
-  
-        <section class="feedback">
-            <h3 class="title">Отзывы О нас</h3>
-            <div class="container">
-                <div class="slider">
-                    <div class="review active">
-                        <p>Очень понравилось в зоопарке! Животные ухоженные, территория чистая и уютная.</p>
-                        <div class="author">— Мария</div>
-                    </div>
-                    <div class="review">
-                        <p>Прекрасное место для семейного отдыха. Особенно понравились жирафы и слоны.</p>
-                        <div class="author">— Алексей</div>
-                    </div>
-                    <div class="review">
-                        <p>Хорошая организация, есть кафе и детская площадка. Обязательно придём снова!</p>
-                        <div class="author">— Светлана</div>
-                    </div>
+         </div>
 
-                    <div class="controls">
-                        <button onclick="prevReview()">⟨</button>
-                        <button onclick="nextReview()">⟩</button>
-                    </div>
-                </div>
+      <section class="team">
+        <h2>Сотрудники</h2>
+        <div class="team-container">
+          <div class="team-card">
+            <img
+              src="img/team.png"
+              alt="Директор Иванов Иван"
+              class="team-card-img"
+            />
+            <h3>Иванов Иван</h3>
+            <p>Директор</p>
+          </div>
+          <div class="team-card">
+            <img
+              src="img/team2.png"
+              alt="Менеджер Мария Петрова"
+              class="team-card-img"
+            />
+            <h3>Мария Петрова</h3>
+            <p>Менеджер</p>
+          </div>
+          <div class="team-card">
+            <img
+              src="img/team4.jpg"
+              alt="Смотритель зоопарка Алексей Смирнов"
+              class="team-card-img"
+            />
+            <h3>Алексей Смирнов</h3>
+            <p>Смотритель зоопарка</p>
+          </div>
+          <div class="team-card">
+            <img
+              src="img/team3.png"
+              alt="Смотритель зоопарка Ольга Кузнецова"
+              class="team-card-img"
+            />
+            <h3>Ольга Кузнецова</h3>
+            <p>Смотритель зоопарка</p>
+          </div>
+          <div class="team-card">
+            <img
+              src="img/team5.png"
+              alt="Смотритель зоопарка Дмитрий Соколов"
+              class="team-card-img"
+            />
+            <h3>Дмитрий Соколов</h3>
+            <p>Смотритель зоопарка</p>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <h3 class="title">Отзывы О нас</h3>
+        <div class="container">
+          <div class="slider">
+            <div class="review active">
+              <p>
+                Очень понравилось в зоопарке! Животные ухоженные, территория
+                чистая и уютная.
+              </p>
+              <div class="author">— Мария</div>
+            </div>
+            <div class="review">
+              <p>
+                Прекрасное место для семейного отдыха. Особенно понравились
+                жирафы и слоны.
+              </p>
+              <div class="author">— Алексей</div>
+            </div>
+            <div class="review">
+              <p>
+                Хорошая организация, есть кафе и детская площадка. Обязательно
+                придём снова!
+              </p>
+              <div class="author">— Светлана</div>
             </div>
 
-        </section>
-
+            <div class="controls">
+              <button onclick="prevReview()">⟨</button>
+              <button onclick="nextReview()">⟩</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-
+      <div class="footer_right">
+        <div class="logo">
+          <a href="">ZOOSIK</a>
+        </div>
+        <div class="right_content">
+          +7 (965) 860-26-20
+          <br />
+          Сыктывкар, ул. Огородная, 6
+          <br />
+          Понедельник - суббота, 08:00–23:00
+          <br />
+          Воскресение, 8:00–21:00
+          <br />
+          Предварительные заявки принимаем до 23:00
+        </div>
+      </div>
+      <div class="footer_left">
+        <span class="footer_tite">Меню</span>
+        <ul>
+          <li><a href="">О нас</a></li>
+          <li><a href="">Каталог</a></li>
+          <li><a href="">Заказать</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </div>
     </footer>
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>
