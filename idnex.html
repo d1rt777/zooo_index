@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
 
     </header>
 
     <main>
-  <div class="slider">
+        <div class="slider">
     <div class="slides">
       <div class="slide"><img src="img/bird.jpg" alt="img1"></div>
       <div class="slide"><img src="img/lemyr.jpg" alt="img2"></div>
@@ -22,17 +24,38 @@
    
     <div class="dots"></div>
   </div>
-
-</body>
-</html>
+  
         <section class="feedback">
-            
-        </section> 
+            <h3 class="title">Отзывы О нас</h3>
+            <div class="container">
+                <div class="slider">
+                    <div class="review active">
+                        <p>Очень понравилось в зоопарке! Животные ухоженные, территория чистая и уютная.</p>
+                        <div class="author">— Мария</div>
+                    </div>
+                    <div class="review">
+                        <p>Прекрасное место для семейного отдыха. Особенно понравились жирафы и слоны.</p>
+                        <div class="author">— Алексей</div>
+                    </div>
+                    <div class="review">
+                        <p>Хорошая организация, есть кафе и детская площадка. Обязательно придём снова!</p>
+                        <div class="author">— Светлана</div>
+                    </div>
+
+                    <div class="controls">
+                        <button onclick="prevReview()">⟨</button>
+                        <button onclick="nextReview()">⟩</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
-<script src="js/script.js"></script>
+
     </footer>
-    
 </body>
+
 </html>
