@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
 
@@ -43,13 +45,61 @@
             </div>
         </section>
         <section class="feedback">
-            
-        </section> 
-        
+            <h3 class="title">Отзывы О нас</h3>
+            <div class="container">
+                <div class="slider">
+                    <div class="review active">
+                        <p>Очень понравилось в зоопарке! Животные ухоженные, территория чистая и уютная.</p>
+                        <div class="author">— Мария</div>
+                    </div>
+                    <div class="review">
+                        <p>Прекрасное место для семейного отдыха. Особенно понравились жирафы и слоны.</p>
+                        <div class="author">— Алексей</div>
+                    </div>
+                    <div class="review">
+                        <p>Хорошая организация, есть кафе и детская площадка. Обязательно придём снова!</p>
+                        <div class="author">— Светлана</div>
+                    </div>
+
+                    <div class="controls">
+                        <button onclick="prevReview()">⟨</button>
+                        <button onclick="nextReview()">⟩</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
-
+        <div class="footer_right">
+            <div class="logo">
+                <a href="">ZOOSIK</a>
+            </div>
+            <div class="right_content">
+                +7 (965) 860-26-20
+                <br>
+                Сыктывкар, ул. Огородная, 6
+                <br>
+                Понедельник - суббота, 08:00–23:00
+                <br>
+                Воскресение, 8:00–21:00
+                <br>
+                Предварительные заявки принимаем до 23:00
+            </div>
+        </div>
+        <div class="footer_left">
+            <span class="footer_tite">Меню</span>
+            <ul>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Каталог</a></li>
+                <li><a href="">Заказать</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
