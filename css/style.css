@@ -333,6 +333,9 @@ body {
     margin-bottom: 40px;
     position: relative;
 }
+.title{
+    margin-bottom: 40px;
+}
 
 .animals-grid {
     display: grid;
