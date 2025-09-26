@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -173,19 +180,6 @@ body {
 .team-card p {
   color: #666;
   font-size: 14px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-}
-
-body {
-  padding: 20px;
-  padding: 0;
-  margin: 0;
 }
 
 .animals-section {
